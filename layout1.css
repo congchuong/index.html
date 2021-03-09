@@ -1,0 +1,118 @@
+.body{
+    padding: 10px;
+    margin: 10px;
+}
+#page{
+    width:  1300px;
+    margin: 0 auto;
+}
+header{
+    height: 400px;
+    background-color: aquamarine;
+    background-image: url(fpt.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+nav{
+    line-height: 25px;
+    background-color: whitesmoke;
+}
+section{
+   width: 100%;
+}
+article{
+    background-color:white;
+    min-height: 200px;
+    width: 75%;
+    float: left;
+}
+aside{
+    background-color:rosybrown;
+    min-height: 200px;
+    width: 25%;
+    float: left;
+}
+footer{
+    clear: both;
+    background-color:chocolate;
+    height: 40px;
+    text-align: center;
+    border-top: 3px double purple;
+}
+/*Menu trong Aside */
+ul.vmenu{
+    margin: 10px 0px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px blanchedalmond;
+    list-style: none;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 100px;
+    text-decoration: none;
+    padding-left: 100px;
+    border-bottom: 1px dotted whitesmoke;
+    color: whitesmoke ;
+    font-variant: small-caps;
+    background: url(ip1.png) no-repeat left center;
+    background-size: 100% 100%;
+}
+ul.vmenu>li>a:hover{
+    color:blue;
+    font-weight: bolder;
+    background: url(ip2.png) no-repeat left center;
+}
+/*Sản phẩm*/
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: brown;
+    font-weight: bold;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: coral;
+    position:absolute ;
+    bottom: 5px;
+    left: 5px;
+}
+.prod>.icons{
+    width: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.prod>.new-icon{
+    width: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.top-right{
+position: absolute;
+top: 0px;
+right: 0px;
+border-bottom-left-radius: 30px;
+}
+.company-info{
+    bottom: 60px;
+    left: 20px;
+}
